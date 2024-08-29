@@ -43,14 +43,24 @@ This project provides a Java application to log various events (like system erro
 ## Installation
 
 1. **Clone the Repository**:
+   
    ```bash
    git clone https://github.com/yourusername/EventLogger.git
    cd EventLogger
 
 2. **Compile the Java Files**:
+   
    ```bash
    javac -cp .:path/to/mysql-connector-java-x.x.x.jar src/EventLogger.java src/LogViewer.java
 
+3. **Run the Application**:
+   
+    To log events:
+   
+    ```bash
+    java -cp .:path/to/mysql-connector-java-x.x.x.jar src.EventLogger
 
+  To view logs (Optional):
 
+    java -cp .:path/to/mysql-connector-java-x.x.x.jar src.LogViewer
 
