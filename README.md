@@ -45,7 +45,7 @@ This project provides a Java application to log various events (like system erro
 1. **Clone the Repository**:
    
    ```bash
-   git clone https://github.com/yourusername/EventLogger.git
+   git clone https://github.com/Drashta03/EventLogger.git
    cd EventLogger
 
 2. **Compile the Java Files**:
