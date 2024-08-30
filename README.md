@@ -64,3 +64,6 @@ This project provides a Java application to log various events (like system erro
 
     java -cp .:path/to/mysql-connector-java-x.x.x.jar src.LogViewer
 
+## Usage 
+- Logging Events: Modify the EventLogger.java to log different types of events.
+- Viewing Logs: Run the LogViewer to see logged events in a simple GUI.
